@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal OJT Blog</title>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+  <!-- Box icon -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body id="blog-page">
+
+  <!-- Navbar -->
+  <header class="header">
+    <a href="#" class="logo">OJT Blog</a>
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#blog">Blog</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <!-- Navbar -->
+
+  <!-- home section design -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <img src="img/triple_logo.png" alt="Welcome Image" style="max-width: 30%; height: auto;">
+      <h3>Hello, Welcome to My OJT Journey</h3>
+      <h1>Rey John B. Orilla</h1>
+      <h3>And I'm a <span>Computer Science Student</span></h3>
+      <p>Sharing my experiences and learnings from my OJT at the Department of Public Works and Highways (DPWH).
+        Dive into my blog to explore insights, projects, and the skills I have developed during this incredible journey.</p>
+      <div class="social-media">
+        <a href="https://web.facebook.com/profile.php?id=100075788590287"><i class='bx bxl-facebook'></i></a>
+        <a href="#"><i class='bx bxl-twitter'></i></a>
+        <a href="https://www.instagram.com/reijon._orilla/?igsh=MWE5a3hjODIxenB3Zw%3D%3D&fbclid=IwY2xjawEVnGRleHRuA2FlbQIxMAABHShkM2kC70s8YaE0bW4poqwG3W43IftK-Vz25GCrobzNHzJt515IfIb50g_aem_nADwEV5xrQZarSw0efxSMw"><i class='bx bxl-instagram-alt'></i></a>
+        <a href="#"><i class='bx bxl-linkedin'></i></a>
+      </div>
+      <a href="#" class="btn" id="scrollToBlogBtn">Click Me</a>
+    </div>
+
+    <div class="home-img">
+      <img src="img/home.png" alt="">
+    </div>
+  </section>
+  <!-- home section design-->
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="img/home.png" alt="">
+    </div>
+    <div class="about-content">
+      <h2 class="heading">About <span>Me</span></h2>
+      <h3>OJT Trainee at DPWH!</h3>
+      <p>Hello! I'm Rey John, a 3rd Year student currently undergoing my On-the-Job Training (OJT) at the Department of Public Works and Highways (DPWH).
+        With a solid foundation in hardware repair and networking, I'm dedicated to ensuring the smooth operation of computer systems and networks.
+        During my OJT, I've been actively involved in various projects that have enhanced my skills in diagnosing and repairing hardware issues, as well as setting up and maintaining network infrastructure.
+        I'm excited to share my journey, projects, and the valuable lessons I've learned along the way.
+        My goal is to ensure that all systems are running efficiently and effectively, providing a reliable technological environment.
+        Let's connect and explore how we can build something amazing together!</p>
+      <a href="#" class="btn">Read More</a>
+    </div>
+  </section>
+  <!-- About -->
+
+  <!-- Blog -->
+<section class="blog blog-section" id="blog">
+  <h2 class="heading">My <span>Blog</span></h2>
+
+  <div id="day-content" class="day-content">
+    <p id="intro-text"></p>
+  </div>
+
+  <div class="day-buttons-wrapper">
+    <div class="day-buttons">
+      <button onclick="showDayContent(1)">1</button>
+      <button onclick="showDayContent(2)">2</button>
+      <button onclick="showDayContent(3)">3</button>
+      <button onclick="showDayContent(4)">4</button>
+      <button onclick="showDayContent(5)">5</button>
+      <button onclick="showDayContent(6)">6</button>
+      <button onclick="showDayContent(7)">7</button>
+      <button onclick="showDayContent(8)">8</button>
+      <button onclick="showDayContent(9)">9</button>
+      <button onclick="showDayContent(10)">10</button>
+      <button onclick="showDayContent(11)">11</button>
+      <button onclick="showDayContent(12)">12</button>
+      <button onclick="showDayContent(13)">13</button>
+      <button onclick="showDayContent(14)">14</button>
+      <button onclick="showDayContent(15)">15</button>
+      <button onclick="showDayContent(16)">16</button>
+      <button onclick="showDayContent(17)">17</button>
+      <button onclick="showDayContent(18)">18</button>
+      <button onclick="showDayContent(19)">19</button>
+      <button onclick="showDayContent(20)">20</button>
+    </div>
+  </div>
+</section>
+<!-- Blog -->
+
+
+  <!-- Projects -->
+<section class="projects" id="projects">
+  <h2 class="heading">Latest <span>Project</span></h2>
+
+  <div class="projects-container">
+    <div class="projects-box">
+      <img src="img/project1.jpg" alt="">
+      <div class="projects-layer">
+        <h4>Printer Driver Installation & etc.</h4>
+        <p>Installation and troubleshooting of printer drivers and related software.</p>
+      </div>
+    </div>
+    <div class="projects-box">
+      <img src="img/project2.jpg" alt="">
+      <div class="projects-layer">
+        <h4>Server Troubleshooting</h4>
+        <p>Resolving issues and optimizing server performance for seamless operation.</p>
+      </div>
+    </div>
+    <div class="projects-box">
+      <img src="img/project3.jpg" alt="">
+      <div class="projects-layer">
+        <h4>Backing Up Data</h4>
+        <p>Ensuring data integrity and security through effective backup solutions.</p>
+      </div>
+    </div>
+    <div class="projects-box">
+      <img src="img/project4.jpg" alt="">
+      <div class="projects-layer">
+        <h4>Wiring</h4>
+        <p>Setting up and managing network wiring for optimal connectivity.</p>
+      </div>
+    </div>
+    <div class="projects-box">
+      <img src="img/project5.jpg" alt="">
+      <div class="projects-layer">
+        <h4>Fixing Lan Connection</h4>
+        <p>Diagnosing and repairing LAN connection issues to ensure reliable network access.</p>
+      </div>
+    </div>
+    <div class="projects-box">
+      <img src="img/project6.jpg" alt="">
+      <div class="projects-layer">
+        <h4>Fixing Computer Related Problems</h4>
+        <p>Troubleshooting and resolving various computer hardware and software issues.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Projects -->
+
+
+  <!-- contact -->
+<section class="contact" id="contact">
+  <h2 class="heading">Contact <span>Me</span></h2>
+  <form action="#">
+    <div class="input-box">
+      <div class="input-field">
+        <input type="text" placeholder="Full Name">
+        <i class='bx bxs-user'></i>
+      </div>
+      <div class="input-field">
+        <input type="email" placeholder="Email Address">
+        <i class='bx bxs-envelope'></i>
+      </div>
+    </div>
+    <div class="input-box">
+      <div class="input-field">
+        <input type="text" placeholder="Mobile Number">
+        <i class='bx bxs-phone'></i>
+      </div>
+      <div class="input-field">
+        <input type="text" placeholder="Email Subject">
+        <i class='bx bxs-chat'></i>
+      </div>
+    </div>
+    <div class="input-field">
+      <textarea placeholder="Your Message"></textarea>
+      <i class='bx bxs-message-rounded-dots'></i>
+    </div>
+    <div class="btn-box">
+      <button type="submit" class="btn">Send Message</button>
+    </div>
+  </form>
+</section>
+<!-- contact -->
+
+  <!-- scroll reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="script.js"></script>
+  
+
+</body>
+</html>
